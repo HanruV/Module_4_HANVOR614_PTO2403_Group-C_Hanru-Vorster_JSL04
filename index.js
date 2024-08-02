@@ -21,8 +21,9 @@ console.log(stockCheck);
 // Based on the current heart rate, determine if the user should drink a Monster Energy drink to boost their workout. 
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
-let heartRate = 95; // Current heart rate in bpm
-console.log(`'}`);
+let heartRate = 99; // Current heart rate in bpm
+const drinkEnerygy = heartRate < 100 ? `Boost needed!` : `Energy levels are high!`;
+console.log(drinkEnerygy);
 
 
 // #### Challenge 4: Temperature Suitability
@@ -30,7 +31,8 @@ console.log(`'}`);
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
 
 let currentTemp = 4; // Current temperature in °C
-console.log(``);
+const TempCheck = currentTemp <= 5 ? `Chilled to perfection!` : `Needs a cooler!`;
+console.log(TempCheck);
 
 
 // #### Challenge 5: Late Night Coding Session
