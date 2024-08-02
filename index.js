@@ -5,7 +5,7 @@
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
 let userPreference = 'Sugar-free'; // Possible values: 'Regular', 'Sugar-free', or undefined
-const flavorSelected = userPreference === 'Sugar-free' ? `User prefers sugar free` : `User prefers regular`;
+const flavorSelected = userPreference === 'Sugar-free' ? `User prefers sugar free.` : `User prefers regular.`;
 console.log(flavorSelected);
 
 // #### Challenge 2: Stock Check
@@ -13,7 +13,8 @@ console.log(flavorSelected);
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
 let cansLeft = 3; // Any number of cans
-console.log(``);
+const stockCheck = cansLeft < 5 ? `Time to restock!` : `We're stocked!`;
+console.log(stockCheck);
 
 
 // #### Challenge 3: Workout Intensity
